@@ -10,8 +10,8 @@ const Container = ({ colors, characters, onImageClick }) => {
 				selectedCharacter={characters[index]}
 				onImageClick={onImageClick}
 			/>
-		)
-	})
+		);
+	});
 	return (
 		<div className='container'>
 			<div className='row flow-text'>
